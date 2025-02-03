@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --shadow-mine: 0 0 10px;
+  --drop-shadow-mine: 0 35px 35px rgba(255, 255, 255, 0.25);  
+}
+
+body{
+  background-color: #121212;
+  color: white;
+  font-family: Montserrat;
+}

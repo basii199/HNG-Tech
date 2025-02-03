@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Udoh, Ubokabasi Odudu</title>
+  <link rel="stylesheet" href="./output.css">
+
+</head>
+
+<body class="bg-[#121212] text-white flex items-center justify-center h-svh">
+  <header class="flex flex-col bg-[#1e1e1f] w-[700px] p-8 rounded-2xl">
+    <div class="flex gap-5">
+      <div class="size-24 shadow-mine shadow-[#1e8fff50] rounded-2xl overflow-hidden">
+        <img src="./images/profile-picture.jpg" alt="profile picture" data-testid="profilePicture"/>
+      </div>
+
+      <div class="flex flex-col justify-between gap-1">
+        <p class="text-2xl font-semibold p-1 max-w-[300px] " data-testid="fullName">
+          Udoh, Ubok-Abasi Odudu
+        </p>
+
+        <p class="bg-[#2b2b2c] p-1 px-2 rounded-md w-fit text-sm" data-testid="jobTitle">
+          Front-end Web Developer
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="w-full border-[#1e8fff50] my-5" />
+
+    <p data-testid="shortBio">
+      I am a passionate Front-End Developer with a strong foundation in React.js, JavaScript, CSS, and HTML. With a keen eye for UI/UX principles, I specialize in creating responsive, intuitive, and engaging web applications that enhance user experiences. My development approach is centered on writing clean, efficient, and well-documented code, ensuring maintainability and scalability.
+    </p>
+
+    <hr class="w-full border-[#1e8fff50] my-5" />
+
+    <div class=" gap-8 columns-[300px]">
+      <div class="flex gap-4">
+        <div class="size-12 p-3 shadow-mine shadow-[#1e8fff50] rounded-md">
+          <img class="size-6" src="./icons/envelope-regular.svg" alt="" />
+        </div>
+
+        <div class="flex flex-col justify-between">
+          <p class="text-[#dedede] font-light text-sm">
+            EMAIL
+          </p>
+
+          <p data-testid="emailAddress">
+            ubokabasi135@gmail.com
+          </p>
+        </div>
+
+      </div>
+
+      <div class="flex gap-4">
+        <div class="size-12 p-3 shadow-mine shadow-[#1e8fff50] rounded-md">
+          <img class="size-6" src="./icons/location-dot-solid (3).svg" alt="" />
+        </div>
+
+        <div class="flex flex-col justify-between">
+          <p class="text-[#dedede] font-light text-sm">
+            LOCATION
+          </p>
+
+          <p>
+            Akwa Ibom State, Nigeria.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="w-full border-[#1e8fff50] my-5" />
+
+    <div class="flex gap-5">
+      <a class="size-5" href="https://github.com/basii199" data-testid="socialLinks">
+        <img src="./icons/github-brands-solid.svg" alt="" />
+      </a>
+
+      <a class="size-5" href="https://www.linkedin.com/in/ubokabasi-udoh/" data-testid="socialLinks">
+        <img src="./icons/linkedin-brands-solid.svg" alt="" />
+      </a>
+
+      <div class="flex-1">
+        <p data-testid="currentTimeUTC" class="time w-fit justify-self-end">Time</p>
+      </div>
+    </div>
+
+    
+  </header>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
