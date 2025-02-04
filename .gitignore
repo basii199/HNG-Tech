@@ -1,2 +1,43 @@
 node_modules
 .vercel
+
+---
+
+### **3️⃣ `.gitignore`** (For React Native projects)
+```plaintext
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Metro bundler cache
+.metro-bundler-cache/
+metro-cache/
+
+# Build artifacts
+android/app/build/
+ios/Pods/
+ios/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.test
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debugger
+debug.log
