@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 20px;
+}
+
+button{
+  cursor: pointer;
+  transition: transform 300ms;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+h1 {
+  color: #333;
+}
+
+#colorBox {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border: 2px solid #000;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.color-options button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#gameStatus {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#newGameButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#newGameButton:hover {
+  background-color: #218838;
+}
